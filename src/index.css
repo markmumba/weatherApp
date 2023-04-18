@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.ttf');
+}
+
+:root {
+  font-family: 'Inter',sans-serif;
+}
+
+@layer base {
+  li {
+    @apply p-3 text-sm border-2 m-2 rounded-lg shadow-sm;
+  }
+}
